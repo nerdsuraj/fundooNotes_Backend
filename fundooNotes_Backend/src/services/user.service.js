@@ -2,6 +2,9 @@ import User from '../models/user.model';
 
 import bcrypt from 'bcrypt';
 
+import jwt from 'jsonwebtoken';
+import { string } from '@hapi/joi';
+
 //get all users
 export const getAllUsers = async () => {
   const data = await User.find();
@@ -19,6 +22,47 @@ export const userRegistration = async (body) => {
   const data = await User.create(body);
   return data;
 };
+
+
+
+// login User############
+
+export const login = async (body) => {
+
+  const result = await User.findOne({email:body.email});
+  // console.log(result)
+  
+  if(result != null){
+    
+    const comparePass =await bcrypt.compare(body.password, result.password);
+    if(comparePass){
+
+      var token = jwt.sign({ foo: result }, process.env.SECRATEKEY);
+      return token
+    
+    }else{
+      throw new Error("Password is incorrect")
+    }
+
+
+  }else{
+    throw new Error("Mail Is not exist")
+  }
+}
+
+// if(result){
+  //   const comparePass =await bcrypt.compare(body.password, result.password);
+  //   console.log(comparePass);
+  //   if(comparePass){
+  //     return result;
+  //   }
+  //   else{
+  //     difError;
+  //   }
+    
+  // }
+
+// };
 
 //update single user
 export const updateUser = async (_id, body) => {
@@ -45,3 +89,4 @@ export const getUser = async (id) => {
   const data = await User.findById(id);
   return data;
 };
+

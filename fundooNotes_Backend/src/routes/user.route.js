@@ -14,6 +14,10 @@ router.get('', userController.getAllUsers);
 router.post('/', newUserValidator, userController.UserRegistration);
 
 
+//route to login a user
+router.post('/login',userController.login);
+
+
 
 
 
