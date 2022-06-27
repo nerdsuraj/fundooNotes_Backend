@@ -1,5 +1,7 @@
 import User from '../models/user.model';
 
+import bcrypt from 'bcrypt';
+
 //get all users
 export const getAllUsers = async () => {
   const data = await User.find();
@@ -7,7 +9,13 @@ export const getAllUsers = async () => {
 };
 
 //create new user by registration
-export const UserRegistration = async (body) => {
+export const userRegistration = async (body) => {
+  // console.log("body before hashing",body);
+  const saltRounds=10
+  const hashpassword =await bcrypt.hash(body.password,saltRounds)
+  // console.log("hash password",hashpassword);
+  body.password = hashpassword;
+  // console.log("after hash",body);
   const data = await User.create(body);
   return data;
 };

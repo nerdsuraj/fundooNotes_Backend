@@ -47,7 +47,7 @@ export const getUser = async (req, res, next) => {
  */
 export const UserRegistration = async (req, res, next) => {
   try {
-    const data = await UserService.UserRegistration(req.body);
+    const data = await UserService.userRegistration(req.body);
     res.status(HttpStatus.CREATED).json({
       code: HttpStatus.CREATED,
       data: data,
