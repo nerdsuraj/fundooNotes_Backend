@@ -8,8 +8,20 @@ const router = express.Router();
 //route to get all users
 router.get('', userController.getAllUsers);
 
-//route to create a new user
-router.post('', newUserValidator, userController.newUser);
+
+
+//route to create a new user for registration
+router.post('/', newUserValidator, userController.UserRegistration);
+
+
+//route to login a user
+router.post('/login',userController.login);
+
+
+
+
+
+
 
 //route to get a single user by their user id
 router.get('/:_id', userAuth, userController.getUser);

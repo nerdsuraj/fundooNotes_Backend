@@ -1,0 +1,53 @@
+error: 
+    status - 500 
+    message - TypeError: UserService.UserRegistration is not a function
+    at _callee3$ (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\controllers\/user.controller.js:50:36)
+    at tryCatch (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at UserRegistration (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\controllers\/user.controller.js:48:30)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\validators\/user.validator.js:15:5)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-27T09:11:25.103Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at _callee2$ (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\services\/user.service.js:10:33)
+    at tryCatch (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.userRegistration (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\services\/user.service.js:10:30)
+    at _callee3$ (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\controllers\/user.controller.js:50:36)
+    at tryCatch (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-27T09:12:38.920Z"}
+error: 
+    status - 500 
+    message - Error: "email" must be a valid email 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-27T09:18:40.222Z"}
