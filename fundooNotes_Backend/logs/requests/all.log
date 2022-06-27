@@ -4,3 +4,13 @@ info: ::ffff:127.0.0.1 - - [27/Jun/2022:06:51:48 +0000] "GET /api/v1/ HTTP/1.1" 
 
 info: ::ffff:127.0.0.1 - - [27/Jun/2022:06:52:36 +0000] "GET /api/v1/ HTTP/1.1" 200 9 "-" "Thunder Client (https://www.thunderclient.com)"
 
+info: ::1 - - [27/Jun/2022:09:00:52 +0000] "GET /api/v1/ HTTP/1.1" 200 9 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [27/Jun/2022:09:03:31 +0000] "POST /api/v1/users HTTP/1.1" 201 276 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [27/Jun/2022:09:04:10 +0000] "POST /api/v1/users HTTP/1.1" 201 276 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [27/Jun/2022:09:04:41 +0000] "POST /api/v1/users HTTP/1.1" 201 284 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [27/Jun/2022:09:05:18 +0000] "POST /api/v1/users HTTP/1.1" 201 267 "-" "PostmanRuntime/7.29.0"
+
