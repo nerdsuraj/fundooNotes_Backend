@@ -81,3 +81,7 @@ info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-27T1
 info: Connected to the database. {"timestamp":"2022-06-27T10:02:33.396Z"}
 info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-27T10:03:03.952Z"}
 info: Connected to the database. {"timestamp":"2022-06-27T10:03:03.983Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T02:52:52.794Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T02:52:52.843Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T02:55:43.871Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T02:55:44.039Z"}

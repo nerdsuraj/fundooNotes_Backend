@@ -15,3 +15,4 @@ export const newUserValidator = (req, res, next) => {
     next();
   }
 };
+
