@@ -2,3 +2,103 @@ info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T0
 info: Connected to the database. {"timestamp":"2022-06-28T02:52:52.843Z"}
 info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T02:55:43.871Z"}
 info: Connected to the database. {"timestamp":"2022-06-28T02:55:44.039Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T10:23:25.661Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T10:23:25.724Z"}
+error: 
+    status - 500 
+    message - Error: "firstname" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-28T10:24:30.222Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-06-28T10:27:11.810Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T10:27:58.420Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T10:27:58.477Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-06-28T10:28:55.403Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-06-28T10:29:05.863Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T10:31:32.536Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T10:31:32.589Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-28T10:34:40.933Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-28T10:35:06.783Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T10:36:33.983Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T10:36:34.046Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T10:36:47.511Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T10:36:47.564Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-28T10:36:54.355Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-28T10:36:56.273Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-28T10:36:57.514Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-28T10:36:58.753Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-28T10:36:59.925Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-28T10:37:00.994Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T10:41:18.035Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T10:41:18.094Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T10:42:40.331Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T10:42:40.383Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T10:52:53.053Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T10:52:53.118Z"}
