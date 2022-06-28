@@ -135,3 +135,38 @@ error:
       method - POST 
       IP - ::1
      {"timestamp":"2022-06-28T10:37:00.994Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-28T11:46:16.232Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bae96f5995a02938b64936 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-28T12:00:09.063Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bae96f5995a02938b64936 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-28T12:00:38.676Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bae96f5995a02938b64936 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-28T12:01:16.768Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bae99c5995a02938b64938 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-28T12:01:47.917Z"}

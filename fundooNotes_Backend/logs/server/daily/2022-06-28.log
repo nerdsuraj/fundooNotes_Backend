@@ -102,3 +102,74 @@ info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T1
 info: Connected to the database. {"timestamp":"2022-06-28T10:42:40.383Z"}
 info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T10:52:53.053Z"}
 info: Connected to the database. {"timestamp":"2022-06-28T10:52:53.118Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T11:29:22.009Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T11:29:22.034Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T11:42:27.025Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T11:42:27.052Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T11:46:12.087Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T11:46:12.115Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-28T11:46:16.232Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T11:46:34.787Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T11:46:34.819Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T11:48:12.366Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T11:48:12.393Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T11:50:12.308Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T11:50:12.336Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T11:59:33.068Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T11:59:33.097Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bae96f5995a02938b64936 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-28T12:00:09.063Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T12:00:34.341Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T12:00:34.362Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bae96f5995a02938b64936 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-28T12:00:38.676Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T12:01:13.241Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T12:01:13.263Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bae96f5995a02938b64936 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-28T12:01:16.768Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bae99c5995a02938b64938 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-28T12:01:47.917Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T12:04:11.620Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T12:04:11.684Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T12:05:10.443Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T12:05:10.482Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T12:05:39.336Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T12:05:39.389Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T12:10:25.919Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T12:10:25.965Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T12:12:13.269Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T12:12:13.336Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T12:13:42.310Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T12:13:42.349Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T12:14:25.517Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T12:14:25.561Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T12:20:54.090Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T12:20:54.150Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T12:34:04.218Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T12:34:04.268Z"}
