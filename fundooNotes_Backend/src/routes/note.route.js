@@ -5,7 +5,7 @@ import * as noteController from '../controllers/note.controller';
 const router = express.Router();
 
 //route to create new note
-router.post('',noteValidator,  noteController.createNote);
+router.post('',userAuth,noteValidator,  noteController.createNote);
 
 //route to get all note
 router.get('', noteController.getAllNotes);

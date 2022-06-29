@@ -256,3 +256,20 @@ info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T1
 info: Connected to the database. {"timestamp":"2022-06-28T12:20:54.150Z"}
 info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T12:34:04.218Z"}
 info: Connected to the database. {"timestamp":"2022-06-28T12:34:04.268Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-29T03:01:45.152Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T03:01:45.219Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-29T03:02:25.246Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T03:02:25.295Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-29T03:06:26.275Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T03:06:26.326Z"}
+error: 
+    status - 500 
+    message - Error: "firstname" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-29T03:06:31.752Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-29T03:11:10.890Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T03:11:10.939Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-29T03:14:54.921Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T03:14:54.954Z"}

@@ -184,3 +184,19 @@ info: ::1 - - [28/Jun/2022:12:26:42 +0000] "PUT /api/v1/notes/62bae96f5995a02938
 
 info: ::1 - - [28/Jun/2022:12:34:21 +0000] "DELETE /api/v1/notes/62bae96f5995a02938b64936 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.0"
 
+info: ::1 - - [29/Jun/2022:03:06:31 +0000] "POST /api/v1/users HTTP/1.1" 500 60 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:03:06:40 +0000] "POST /api/v1/users HTTP/1.1" 201 315 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:03:06:54 +0000] "POST /api/v1/users/login HTTP/1.1" 200 388 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:03:11:25 +0000] "POST /api/v1/notes HTTP/1.1" 201 213 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:03:15:25 +0000] "POST /api/v1/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:03:15:41 +0000] "POST /api/v1/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:03:16:15 +0000] "GET /api/v1/users HTTP/1.1" 200 2507 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:03:16:32 +0000] "POST /api/v1/users/login HTTP/1.1" 200 388 "-" "PostmanRuntime/7.29.0"
+
