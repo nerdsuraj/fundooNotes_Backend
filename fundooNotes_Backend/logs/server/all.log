@@ -273,3 +273,85 @@ info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-29T0
 info: Connected to the database. {"timestamp":"2022-06-29T03:11:10.939Z"}
 info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-29T03:14:54.921Z"}
 info: Connected to the database. {"timestamp":"2022-06-29T03:14:54.954Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-29T03:17:29.255Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T03:17:29.282Z"}
+error: 
+    status - 500 
+    message - Error: "Title" is required 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-29T03:17:46.174Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-29T03:26:25.481Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T03:26:25.505Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-29T03:27:15.283Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T03:27:15.311Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-29T03:30:06.443Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T03:30:06.472Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T03:35:37.123Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T03:35:37.149Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T03:39:32.278Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T03:39:32.315Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T03:41:09.540Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T03:41:09.570Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T03:44:13.464Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T03:44:13.487Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T03:45:20.394Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T03:45:20.421Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T03:45:58.207Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T03:45:58.237Z"}
+error: 
+    status - 500 
+    message - Error: "value" must be of type object 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-30T03:47:47.686Z"}
+error: 
+    status - 500 
+    message - Error: "value" must be of type object 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-30T03:48:09.971Z"}
+error: 
+    status - 500 
+    message - Error: "value" must be of type object 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-30T03:49:05.488Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T03:50:54.371Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T03:50:54.392Z"}
+error: 
+    status - 500 
+    message - Error: "UserID" is not allowed 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-30T03:50:59.867Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T03:51:56.526Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T03:51:56.552Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T03:53:58.247Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T03:53:58.270Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T03:54:47.063Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T03:54:47.090Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:198:9)
+    at invokeCallback (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:327:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:467:12)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-30T03:57:26.935Z"}

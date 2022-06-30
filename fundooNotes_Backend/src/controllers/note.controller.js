@@ -5,7 +5,7 @@ import { Error } from 'mongoose';
 // for create the note
 export const createNote = async (req, res,next) => {
     try{
-    // console.log("req.body",req.body)
+    console.log("req.body",req.body)
     const data = await noteService.createNote(req.body);
     res.status(HttpStatus.CREATED).json({
         code: HttpStatus.CREATED,
@@ -20,7 +20,7 @@ export const createNote = async (req, res,next) => {
 //for getting all the notes
 export const getAllNotes = async (req, res,next) => {
     try{
-    const data = await noteService.getAllNotes();
+    const data = await noteService.getAllNotes(req.body);
     res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,

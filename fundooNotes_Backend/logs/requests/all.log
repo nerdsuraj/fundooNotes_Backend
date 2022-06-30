@@ -200,3 +200,61 @@ info: ::1 - - [29/Jun/2022:03:16:15 +0000] "GET /api/v1/users HTTP/1.1" 200 2507
 
 info: ::1 - - [29/Jun/2022:03:16:32 +0000] "POST /api/v1/users/login HTTP/1.1" 200 388 "-" "PostmanRuntime/7.29.0"
 
+info: ::1 - - [29/Jun/2022:03:17:46 +0000] "POST /api/v1/notes HTTP/1.1" 500 56 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:03:18:01 +0000] "GET /api/v1/notes HTTP/1.1" 200 778 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:03:18:38 +0000] "POST /api/v1/notes HTTP/1.1" 201 220 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:03:30:50 +0000] "POST /api/v1/notes HTTP/1.1" 201 226 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:03:31:21 +0000] "GET /api/v1/notes HTTP/1.1" 200 1120 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:03:32:32 +0000] "PUT /api/v1/notes/62badd96ed81e90e14a4d242 HTTP/1.1" 202 261 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:03:32:58 +0000] "GET /api/v1/notes/62badd96ed81e90e14a4d242 HTTP/1.1" 200 259 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:03:33:24 +0000] "DELETE /api/v1/notes/62badd96ed81e90e14a4d242 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:03:36:07 +0000] "GET /api/v1/notes HTTP/1.1" 200 924 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:03:37:33 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:03:37:52 +0000] "POST /api/v1/users/login HTTP/1.1" 200 393 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:03:38:10 +0000] "GET /api/v1/notes HTTP/1.1" 200 924 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:03:41:26 +0000] "GET /api/v1/notes HTTP/1.1" 200 924 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:03:47:47 +0000] "POST /api/v1/notes HTTP/1.1" 500 67 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:03:48:09 +0000] "POST /api/v1/notes HTTP/1.1" 500 67 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:03:49:05 +0000] "POST /api/v1/notes HTTP/1.1" 500 67 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:03:50:59 +0000] "POST /api/v1/notes HTTP/1.1" 500 60 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:03:52:01 +0000] "POST /api/v1/notes HTTP/1.1" 201 243 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:03:54:52 +0000] "GET /api/v1/notes HTTP/1.1" 200 255 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:03:55:54 +0000] "POST /api/v1/users/login HTTP/1.1" 200 388 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:03:56:25 +0000] "GET /api/v1/notes HTTP/1.1" 200 255 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:03:57:15 +0000] "GET /api/v1/notes HTTP/1.1" 200 255 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:03:57:40 +0000] "GET /api/v1/notes HTTP/1.1" 200 255 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:04:00:00 +0000] "POST /api/v1/users HTTP/1.1" 201 320 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:04:00:28 +0000] "POST /api/v1/users/login HTTP/1.1" 200 394 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:04:00:58 +0000] "GET /api/v1/notes HTTP/1.1" 200 255 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:04:01:17 +0000] "GET /api/v1/notes HTTP/1.1" 200 65 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:04:02:44 +0000] "POST /api/v1/notes HTTP/1.1" 201 261 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:04:02:51 +0000] "GET /api/v1/notes HTTP/1.1" 200 273 "-" "PostmanRuntime/7.29.0"
+

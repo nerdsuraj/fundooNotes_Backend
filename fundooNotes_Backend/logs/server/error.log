@@ -177,3 +177,57 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-06-29T03:06:31.752Z"}
+error: 
+    status - 500 
+    message - Error: "Title" is required 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-29T03:17:46.174Z"}
+error: 
+    status - 500 
+    message - Error: "value" must be of type object 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-30T03:47:47.686Z"}
+error: 
+    status - 500 
+    message - Error: "value" must be of type object 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-30T03:48:09.971Z"}
+error: 
+    status - 500 
+    message - Error: "value" must be of type object 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-30T03:49:05.488Z"}
+error: 
+    status - 500 
+    message - Error: "UserID" is not allowed 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-30T03:50:59.867Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:198:9)
+    at invokeCallback (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:327:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:467:12)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-30T03:57:26.935Z"}
