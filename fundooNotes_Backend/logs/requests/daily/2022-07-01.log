@@ -1,0 +1,18 @@
+info: ::1 - - [01/Jul/2022:02:11:55 +0000] "POST /api/v1/notes HTTP/1.1" 201 264 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:02:12:25 +0000] "PUT /api/v1/notes/62be57ebe7bfa1053cef0e91/isArchived HTTP/1.1" 200 62 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:02:12:50 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 970 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:02:15:40 +0000] "PUT /api/v1/notes/62be57ebe7bfa1053cef0e91/isArchived HTTP/1.1" 200 62 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:02:17:02 +0000] "PUT /api/v1/notes/62be57ebe7bfa1053cef0e91/isArchived HTTP/1.1" 200 270 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:02:24:11 +0000] "PUT /api/v1/notes/62be57ebe7bfa1053cef0e91/isTrashed HTTP/1.1" 200 293 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:02:41:40 +0000] "POST /api/v1/notes HTTP/1.1" 201 278 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:02:42:22 +0000] "PUT /api/v1/notes/62be5ee48e68e828f84150ab/isArchived HTTP/1.1" 200 284 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Jul/2022:02:42:46 +0000] "PUT /api/v1/notes/62be5ee48e68e828f84150ab/isTrashed HTTP/1.1" 200 289 "-" "PostmanRuntime/7.29.0"
+

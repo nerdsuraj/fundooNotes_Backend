@@ -37,3 +37,40 @@ export const deleteNote = async (id) => {
     await note.findByIdAndDelete(id);
     return '';
   };
+
+
+  //for archive the notes
+
+  export const archiveNote = async (body) =>{
+   const data = await note.findOneAndUpdate(
+     {
+        _id:body.id,UserID:body.UserID,
+    },
+    {
+      isArchived : false
+    },
+    {
+        new: true
+    }
+    );
+    return data;
+
+  }
+
+// for send the note to the trash
+
+export const trashNote = async (id) =>{
+  const data = await note.findOneAndUpdate(
+    {
+       _id:id
+   },
+   {
+    isDeleted : true
+   },
+   {
+       new: true
+   }
+   );
+   return data;
+
+ }

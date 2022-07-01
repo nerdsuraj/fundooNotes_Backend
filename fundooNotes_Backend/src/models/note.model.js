@@ -15,9 +15,12 @@ const noteSchema = new Schema(
     },
     isArchived: {
         type: Boolean,
+        default:false,
+    
     },
     isDeleted: {
         type: Boolean,
+        default:false,
     },
     UserID: {
         type: String
@@ -29,3 +32,5 @@ const noteSchema = new Schema(
 );
 
 export default model('Note', noteSchema);
+
+

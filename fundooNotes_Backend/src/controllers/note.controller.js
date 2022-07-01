@@ -74,4 +74,35 @@ export const deleteNote = async (req, res,next) => {
 };
 
 
+//for is archive the note
 
+export const archiveNote = async (req, res,next) => {
+    try{
+    const data = await noteService.archiveNote(req.params._id);
+    res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+        data: data,
+        message: 'archive note successfully'
+    });
+}catch(err) {
+    next(Error);
+}
+}
+
+// for send the note to the trash
+
+export const trashNote = async(req, res,next) =>{
+    try {
+      const data = await noteService.trashNote(req.params._id);
+          res.status(HttpStatus.OK).json({
+            code: HttpStatus.OK,
+            data: data,
+            message: 'Note successfully move to Trash'
+          });
+    }catch (error) {
+      res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: `${error}`
+      }); 
+    }
+  };

@@ -231,3 +231,141 @@ error:
     method - GET 
     IP - ::1
    {"timestamp":"2022-06-30T03:57:26.935Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd729db54a7724f4dc3549/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T09:54:39.648Z"}
+error: 
+    status - 500 
+    message - ReferenceError: taskServices is not defined
+    at archiveNote (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\controllers\/note.controller.js:91:5)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/notes/62bd729db54a7724f4dc3549/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T10:31:21.609Z"}
+error: 
+    status - 500 
+    message - TypeError: _note.default.updateCard is not a function
+    at Object.archiveNote (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\services\/note.service.js:64:10)
+    at archiveNote (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\controllers\/note.controller.js:91:17)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/notes/62bd729db54a7724f4dc3549/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T10:32:08.099Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T10:45:58.752Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:198:9)
+    at invokeCallback (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:327:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:467:12)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T10:46:10.881Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T10:46:22.429Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T10:47:57.339Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T10:48:32.693Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T10:52:31.810Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T10:54:30.516Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T10:54:40.731Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T11:16:03.559Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T11:16:41.027Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T12:45:33.294Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T12:46:05.234Z"}

@@ -355,3 +355,215 @@ error:
     method - GET 
     IP - ::1
    {"timestamp":"2022-06-30T03:57:26.935Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T09:48:29.979Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T09:48:30.008Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T09:52:58.684Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T09:52:58.707Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd729db54a7724f4dc3549/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T09:54:39.648Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T09:56:01.352Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T09:56:01.372Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T10:15:51.123Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T10:15:51.176Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T10:29:07.055Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T10:29:07.107Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T10:30:15.277Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T10:30:15.331Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T10:30:38.409Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T10:30:38.466Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T10:30:50.419Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T10:30:50.471Z"}
+error: 
+    status - 500 
+    message - ReferenceError: taskServices is not defined
+    at archiveNote (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\controllers\/note.controller.js:91:5)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/notes/62bd729db54a7724f4dc3549/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T10:31:21.609Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T10:32:02.125Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T10:32:02.179Z"}
+error: 
+    status - 500 
+    message - TypeError: _note.default.updateCard is not a function
+    at Object.archiveNote (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\services\/note.service.js:64:10)
+    at archiveNote (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\controllers\/note.controller.js:91:17)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/notes/62bd729db54a7724f4dc3549/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T10:32:08.099Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T10:33:02.425Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T10:33:02.467Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T10:35:53.905Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T10:35:53.971Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T10:40:09.178Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T10:40:09.244Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T10:41:56.394Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T10:41:56.447Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T10:43:02.254Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T10:43:02.311Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T10:45:17.223Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T10:45:17.260Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T10:45:58.752Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:198:9)
+    at invokeCallback (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:327:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:467:12)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T10:46:10.881Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T10:46:22.429Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T10:47:52.443Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T10:47:52.485Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T10:47:57.339Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T10:48:32.693Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T10:52:18.944Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T10:52:19.017Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T10:52:31.810Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T10:54:21.810Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T10:54:21.911Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T10:54:30.516Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T10:54:40.731Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T11:15:08.800Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T11:15:08.849Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T11:16:03.559Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T11:16:41.027Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T11:33:23.224Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T11:33:23.287Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T11:34:09.257Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T11:34:09.310Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T11:34:24.674Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T11:34:24.733Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T12:45:18.722Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T12:45:18.772Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T12:45:33.294Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T12:46:05.234Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T12:46:51.145Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T12:46:51.193Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T12:48:14.949Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T12:48:14.997Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T13:19:27.437Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T13:19:27.476Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T16:05:04.274Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T16:05:04.310Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T16:07:44.993Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T16:07:45.050Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-30T16:12:05.094Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T16:12:05.146Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-01T02:10:48.742Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T02:10:48.767Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-01T02:15:30.676Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T02:15:30.744Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-01T02:16:57.754Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T02:16:57.781Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-01T02:23:40.515Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T02:23:40.551Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-01T02:41:17.505Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T02:41:17.546Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-01T02:44:24.539Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T02:44:24.596Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-01T02:47:46.369Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T02:47:46.424Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-01T02:48:01.798Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T02:48:01.847Z"}
