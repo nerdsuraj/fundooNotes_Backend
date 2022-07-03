@@ -21,6 +21,7 @@
         "/users": {
             "post": {
                 "tags": ["User"],
+                "summary":"Registration user",
                 "description": "Registration user",
                 "parameters": [
                     {
@@ -40,37 +41,384 @@
                     "500": {
                         "description": "Internal server error"
                     }
-                },
-                "security": [
-                    {
-                      "JWT": []
-                    }
-                  ]           
-            }
-        },"users/login": {
-            "post": {
+                }         
+            },
+            "get": {
                 "tags": ["User"],
-                "description": "User login...",
+                "summary":"Getting all users info",
+                "description": "Getting all users info...",
                 "parameters": [
                     {
-                        "name": "login user",
-                        "in": "body",
-                        "description": "User Login",
+                        "name": "Getting all users info..",
+                        "description": "getting users.."
+                        
+                    }
+                ],
+                "produces": [ "application/json" ],
+                "responses": {
+                    "200": {
+                        "description": "Sucessfull get all users info.."
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    },
+                    "404":{
+                        "description":"something went wrong"
+                    }
+                }
+            }
+        },
+          "users/login": {
+                "post": {
+                    "tags": ["User"],
+                    "summary":"User login",
+                    "description": "User login...",
+                    "parameters": [
+                        {
+                            "name": "login user",
+                            "in": "body",
+                            "description": "User Login",
+                            "schema": {
+                                "$ref": "#/definitions/login"
+                            }
+                        }
+                    ],
+                    "produces": [ "application/json" ],
+                    "responses": {
+                        "200": {
+                            "description": "Sucessfull logged in"
+                        },
+                        "500": {
+                            "description": "Internal server error"
+                        },
+                        "404":{
+                            "description":"email and password are not match"
+                        }
+                    } 
+                }
+            },
+        "/users/{:_id}": {
+            "get": {
+                "tags": ["User"],
+                "summary":"Getting one users info",
+                "description": "Getting one users info...",
+                "produces": [],
+                "parameters": [
+                    {
+                        "name": "Getting user info..",
+                        "in": "path",
+                        "required":true,
+                        "type":"string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Sucessfull get one user info.."
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    },
+                    "404":{
+                        "description":"something went wrong"
+                    }
+                }
+            },
+            "put": {
+                "tags": ["User"],
+                "summary":"update one user info",
+                "description": "update one user info...",
+                "parameters": [
+                    {
+                        "name": "updating user info..",
+                        "in": "path",
+                        "required":true,
+                        "type":"string"   
+                    },
+                    {
+                        "name":"update users",
+                        "in":"body",
+                        "description":"update single users",
+                        "required":false,
                         "schema": {
-                            "$ref": "#/definitions/login"
+                            "$ref": "#/definitions/Users"
                         }
                     }
                 ],
                 "produces": [ "application/json" ],
                 "responses": {
                     "200": {
-                        "description": "Sucessfull logged in"
+                        "description": "Sucessfull update user info.."
                     },
                     "500": {
                         "description": "Internal server error"
                     },
                     "404":{
-                        "description":"email and password are not match"
+                        "description":"something went wrong"
+                    }
+                },
+                "security": [
+                    {
+                      "JWT": []
+                    }
+                  ] 
+            },
+         "delete": {
+                "tags": ["User"],
+                "summary":"delete one user info",
+                "description": "delete one user info...",
+                "parameters": [
+                    {
+                        "name": "delete user info..",
+                        "in": "path",
+                       "required":true,
+                       "type":"string"
+                    },
+                    {
+                        "name":"delete the user info..",
+                        "description":"delete one user info...",
+                        "required":false
+                    }
+                ],
+                "produces": [ "application/json" ],
+                "responses": {
+                    "200": {
+                        "description": "Sucessfull deleted user info.."
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    },
+                    "404":{
+                        "description":"something went wrong"
+                    }
+                },
+                "security": [
+                    {
+                      "JWT": []
+                    }
+                  ] 
+            }
+        },
+        "/notes": {
+            "post": {
+                "tags": ["Note"],
+                "summary":"create note ",
+                "description": "note create ",
+                "parameters": [
+                    {
+                        "name": "create new note",
+                        "in": "body",
+                        "description": "create note",
+                        "schema": {
+                            "$ref": "#/definitions/Note"
+                        }
+                    }
+                ],
+                "produces": [ "application/json" ],
+                "responses": {
+                    "201": {
+                        "description": "New note is created"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                },
+                "security": [
+                    {
+                      "JWT": []
+                    }
+                  ]         
+            },
+            "get": {
+                "tags": ["Note"],
+                "summary":"fetching all notes..",
+                "description": "Getting all notes ",
+                "parameters": [
+                    {
+                        "name": "Getting all notes ",
+                        "description": "fetching notes.."
+                        
+                    }
+                ],
+                "produces": [ "application/json" ],
+                "responses": {
+                    "200": {
+                        "description": "Sucessfull get all users info.."
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    },
+                    "404":{
+                        "description":"something went wrong"
+                    }
+                },
+                "security": [
+                    {
+                      "JWT": []
+                    }
+                  ] 
+            }
+        },
+        "/notes/{:_id}": {
+            "get": {
+                "tags": ["Note"],
+                "summary":"Getting one notes info",
+                "description": "fetching one note..",
+                "produces": [],
+                "parameters": [
+                    {
+                        "name": "Getting note",
+                        "in": "path",
+                        "required":true,
+                        "type":"string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Sucessfull get one user info.."
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    },
+                    "404":{
+                        "description":"something went wrong"
+                    }
+                },
+                "security": [
+                    {
+                      "JWT": []
+                    }
+                  ] 
+            },
+            "put": {
+                "tags": ["Note"],
+                "summary":"update one notes ",
+                "description": "update one note ",
+                "parameters": [
+                    {
+                        "name": "updating notes.",
+                        "in": "path",
+                        "required":true,
+                        "type":"string"   
+                    },
+                    {
+                        "name":"update notes",
+                        "in":"body",
+                        "description":"update single notes",
+                        "required":false,
+                        "schema": {
+                            "$ref": "#/definitions/Note"
+                        }
+                    }
+                ],
+                "produces": [ "application/json" ],
+                "responses": {
+                    "200": {
+                        "description": "Sucessfull update notes .."
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    },
+                    "404":{
+                        "description":"something went wrong"
+                    }
+                },
+                "security": [
+                    {
+                      "JWT": []
+                    }
+                  ] 
+            },
+         "delete": {
+                "tags": ["Note"],
+                "summary":"delete one notes ",
+                "description": "delete one notes.",
+                "parameters": [
+                    {
+                        "name": "delete notes.",
+                        "in": "path",
+                       "required":true,
+                       "type":"string"
+                    },
+                    {
+                        "name":"delete the notes.",
+                        "description":"delete one notes..",
+                        "required":false
+                    }
+                ],
+                "produces": [ "application/json" ],
+                "responses": {
+                    "200": {
+                        "description": "Sucessfull deleted notes.."
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    },
+                    "404":{
+                        "description":"something went wrong"
+                    }
+                },
+                "security": [
+                    {
+                      "JWT": []
+                    }
+                  ] 
+            }
+        },
+        "/notes/{:_id}/isArchived":{
+            "put":{
+                "tags": ["Note"],
+                "summary":"Archived the notes ",
+                "description": "Archived the notes.",
+                "parameters": [
+                    {
+                        "name": "Archived notes.",
+                        "in": "path",
+                       "required":true,
+                       "type":"string"
+                    }
+                ],
+                "produces": [ "application/json" ],
+                "responses": {
+                    "200": {
+                        "description": "Sucessfull Archived notes.."
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    },
+                    "404":{
+                        "description":"something went wrong"
+                    }
+                },
+                "security": [
+                    {
+                      "JWT": []
+                    }
+                  ] 
+            }
+        },
+        "/notes/{:_id}/isTrashed":{
+            "put":{
+                "tags": ["Note"],
+                "summary":"send the notes to trash",
+                "description": "send the notes to trash.",
+                "parameters": [
+                    {
+                        "name": "notesid",
+                        "in": "path",
+                       "required":true,
+                       "type":"string"
+                    }
+                ],
+                "produces": [ "application/json" ],
+                "responses": {
+                    "200": {
+                        "description": "Sucessfull send the notes to trash"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    },
+                    "404":{
+                        "description":"something went wrong"
                     }
                 },
                 "security": [
@@ -80,8 +428,8 @@
                   ] 
             }
         }
-       
     },
+
     "securityDefinitions": {
         "JWT": {
           "type": "apiKey",
@@ -115,6 +463,20 @@
                         "type": "string"
                     }
                 }
+            },
+            "Note":{
+                "type":"object",
+                "properties":{
+                    "Title":{
+                        "type":"string"
+                    },"Descreption":{
+                        "type":"string"
+                    },
+                    "color":{
+                        "type":"string"
+                    }
+                    
+                }   
             }
   
         }
