@@ -13,7 +13,7 @@ export const userAuth = async (req, res, next) => {
   console.log('inside middleware',req.body)
   try {
     var bearerToken = req.header('Authorization');
-    console.log(bearerToken);
+    // console.log(bearerToken);
     if (!bearerToken)
       throw {
         code: HttpStatus.BAD_REQUEST,
@@ -25,11 +25,11 @@ export const userAuth = async (req, res, next) => {
   //  console.log(user);
    req.body.UserID = user.email;
     next();
-  } catch (error) {
+  }catch (error) {
     res.status(HttpStatus.BAD_REQUEST).json({
       code: HttpStatus.BAD_REQUEST,
       data: data,
-      message: `${error}`
+      message: `UnAuthorised token`
   });
   }
 };

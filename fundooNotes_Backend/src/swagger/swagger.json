@@ -1,0 +1,125 @@
+
+{
+    "swagger": "2.0",
+   "info": {
+       "version": "V1",
+       "title": "Fundoo note",
+       "description": "This is the replica of the google keep . user can register and login ,user can do request to forget password and he/she can reset the password for using the share crendential , User can login and perform the CRUD Operation. "
+   },
+   "host": "localhost:7000",
+   "basePath": "/api/v1/",
+   "tags": [
+       {
+           "name": "Fundoo note using express CLI",
+           "description": "this is the replica of google keep"
+       }
+    ],
+    "schemes": ["http","https"],
+    "consumes": [ "application/json" ],
+    "produces": [ "application/json" ],
+    "paths": {
+        "/users": {
+            "post": {
+                "tags": ["User"],
+                "description": "Registration user",
+                "parameters": [
+                    {
+                        "name": "register new name",
+                        "in": "body",
+                        "description": "Register user",
+                        "schema": {
+                            "$ref": "#/definitions/Users"
+                        }
+                    }
+                ],
+                "produces": [ "application/json" ],
+                "responses": {
+                    "201": {
+                        "description": "New user is created"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                },
+                "security": [
+                    {
+                      "JWT": []
+                    }
+                  ]           
+            }
+        },"users/login": {
+            "post": {
+                "tags": ["User"],
+                "description": "User login...",
+                "parameters": [
+                    {
+                        "name": "login user",
+                        "in": "body",
+                        "description": "User Login",
+                        "schema": {
+                            "$ref": "#/definitions/login"
+                        }
+                    }
+                ],
+                "produces": [ "application/json" ],
+                "responses": {
+                    "200": {
+                        "description": "Sucessfull logged in"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    },
+                    "404":{
+                        "description":"email and password are not match"
+                    }
+                },
+                "security": [
+                    {
+                      "JWT": []
+                    }
+                  ] 
+            }
+        }
+       
+    },
+    "securityDefinitions": {
+        "JWT": {
+          "type": "apiKey",
+          "name": "Authorization",
+          "in": "header"
+        }
+      },
+    "definitions": {
+        "Users": {
+            "type": "object",
+            "properties": {
+                "firstname": {
+                    "type": "string"
+                },
+                "lastname": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string"
+                },"password": {
+                    "type": "string"
+                }
+            }
+        },
+        "login":{
+          "type": "object",
+                "properties": {
+                    "email": {
+                        "type": "string"
+                    },"password": {
+                        "type": "string"
+                    }
+                }
+            }
+  
+        }
+       
+    }
+
+  
+

@@ -369,3 +369,94 @@ error:
     method - PUT 
     IP - ::1
    {"timestamp":"2022-06-30T12:46:05.234Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bfbe9adf512c294ce99aeb 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-02T10:43:08.470Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bfbe9adf512c294ce99aeb 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-02T10:56:56.571Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c4 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:32:39.560Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c4 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:36:42.524Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c4 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:42:55.851Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c47 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:45:23.013Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c47 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:45:44.467Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c47 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:46:02.848Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c47 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:48:33.420Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c47 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:48:35.167Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c47 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:50:04.447Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c47 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:50:05.985Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c47 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:50:27.489Z"}

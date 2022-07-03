@@ -32,44 +32,53 @@ export const getAllNotes = async (req, res,next) => {
 };
 
 //for getting single note by their id
-export const getSingleNote = async (req, res,next) => {
-    try{
-    const data = await noteService.getSingleNote(req.params._id);
-    res.status(HttpStatus.OK).json({
-        code: HttpStatus.OK,
-        data: data,
-        message: 'single note fetch successfully'
-    });
-}catch(err) {
-    next(Error);
-}
+export const getSingleNote = async (req, res, next) => {
+    try {
+        const data = await noteService.getSingleNote(req.params._id,req.body.UserID);
+        res.status(HttpStatus.OK).json({
+            code: HttpStatus.OK,
+            data:data,
+            message: 'Notes fetched successfully'
+        });
+    } catch (error) {
+        res.status(HttpStatus.BAD_REQUEST).json({
+            code: HttpStatus.BAD_REQUEST,
+            message: `${error}`
+        });
+    }
 };
 
 //for update a single note by thier id
 export const updateNote = async (req, res,next) => {
     try{
-    const data = await noteService.updateNote(req.params._id, req.body);
+    const data = await noteService.updateNote(req.params._id, req.body, req.body.UserID);
     res.status(HttpStatus.ACCEPTED).json({
         code: HttpStatus.ACCEPTED,
         data: data,
         message: 'updated single note successfully'
     });
 }catch(err) {
-    next(Error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: `${err}`
+    });
 }
 };
 
 //making to delete  a note
 export const deleteNote = async (req, res,next) => {
     try{
-    const data = await noteService.deleteNote(req.params._id);
+    const data = await noteService.deleteNote(req.params._id,req.body.UserID);
     res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,
         message: 'deleted note successfully'
     });
 }catch(err) {
-    next(Error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: `${err}`
+    });
 }
 };
 
@@ -78,22 +87,25 @@ export const deleteNote = async (req, res,next) => {
 
 export const archiveNote = async (req, res,next) => {
     try{
-    const data = await noteService.archiveNote(req.params._id);
+    const data = await noteService.archiveNote(req.params._id,req.body.UserID);
     res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,
         message: 'archive note successfully'
     });
 }catch(err) {
-    next(Error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: `${err}`
+    });
 }
-}
+};
 
 // for send the note to the trash
 
-export const trashNote = async(req, res,next) =>{
+export const trashNote = async(req, res) =>{
     try {
-      const data = await noteService.trashNote(req.params._id);
+      const data = await noteService.trashNote(req.params._id,req.body.UserID);
           res.status(HttpStatus.OK).json({
             code: HttpStatus.OK,
             data: data,

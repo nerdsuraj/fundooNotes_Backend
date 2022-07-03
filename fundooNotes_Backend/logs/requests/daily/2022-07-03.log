@@ -1,0 +1,28 @@
+info: ::1 - - [03/Jul/2022:05:25:35 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 868 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Jul/2022:05:26:37 +0000] "DELETE /api/v1/notes/62c023bff317923780580c47 HTTP/1.1" 200 335 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Jul/2022:05:26:53 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 590 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Jul/2022:05:28:18 +0000] "DELETE /api/v1/notes/62bd1de109f383398c2867b9 HTTP/1.1" 400 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Jul/2022:05:35:44 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 590 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Jul/2022:05:37:50 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 324 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Jul/2022:05:37:58 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 862 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Jul/2022:05:38:31 +0000] "PUT /api/v1/notes/62bdca1d5454ac0984fce3bd/isArchived HTTP/1.1" 400 58 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Jul/2022:05:39:23 +0000] "PUT /api/v1/notes/62c12b2e2c009b42f8cfa14f/isArchived HTTP/1.1" 400 58 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Jul/2022:05:39:35 +0000] "PUT /api/v1/notes/62c12b2e2c009b42f8cfa14f/isArchived HTTP/1.1" 400 58 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Jul/2022:05:41:06 +0000] "PUT /api/v1/notes/62c12b2e2c009b42f8cfa14f/isArchived HTTP/1.1" 200 328 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Jul/2022:05:41:14 +0000] "PUT /api/v1/notes/62c12b2e2c009b42f8cfa14f/isArchived HTTP/1.1" 200 329 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Jul/2022:05:50:37 +0000] "PUT /api/v1/notes/62c12b2e2c009b42f8cfa14f/isTrashed HTTP/1.1" 200 334 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Jul/2022:05:50:38 +0000] "PUT /api/v1/notes/62c12b2e2c009b42f8cfa14f/isTrashed HTTP/1.1" 200 335 "-" "PostmanRuntime/7.29.0"
+
