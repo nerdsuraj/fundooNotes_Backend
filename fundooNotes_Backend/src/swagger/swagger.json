@@ -200,65 +200,62 @@
         },
         "/notes": {
             "post": {
-                "tags": ["Note"],
-                "summary":"create note ",
-                "description": "note create ",
-                "parameters": [
-                    {
-                        "name": "create new note",
-                        "in": "body",
-                        "description": "create note",
-                        "schema": {
-                            "$ref": "#/definitions/Note"
-                        }
-                    }
-                ],
-                "produces": [ "application/json" ],
-                "responses": {
-                    "201": {
-                        "description": "New note is created"
-                    },
-                    "500": {
-                        "description": "Internal server error"
-                    }
+              "tags": ["Note"],
+              "summary": "Create a note for User",
+              "produces": [],
+              "parameters": [
+                {
+                  "name": "create note",
+                  "in": "body",
+                  "description": "create note",
+                  "required": false,
+                  "type": "string",
+                  "schema": {
+                    "$ref": "#/definitions/Note"
+                  }
+                }
+              ],
+              "responses": {
+                "201": {
+                  "description": "note created succesfully"
                 },
-                "security": [
-                    {
-                      "JWT": []
-                    }
-                  ]         
+                "500": {
+                  "description": "Internal server error"
+                }
+              },
+              "security": [
+                {
+                  "JWT": []
+                }
+              ]
             },
             "get": {
-                "tags": ["Note"],
-                "summary":"fetching all notes..",
-                "description": "Getting all notes ",
-                "parameters": [
-                    {
-                        "name": "Getting all notes ",
-                        "description": "fetching notes.."
-                        
-                    }
-                ],
-                "produces": [ "application/json" ],
-                "responses": {
-                    "200": {
-                        "description": "Sucessfull get all users info.."
-                    },
-                    "500": {
-                        "description": "Internal server error"
-                    },
-                    "404":{
-                        "description":"something went wrong"
-                    }
+              "tags": ["Note"],
+              "summary": "Get all Notes",
+              "produces": [],
+              "parameters": [
+                {
+                  "name": "Get Notes",
+                  "description": "Get all notesfor User",
+                  "required": false
+                }
+              ],
+              "responses": {
+                "200": {
+                  "description": "notes fetched successfully"
                 },
-                "security": [
-                    {
-                      "JWT": []
-                    }
-                  ] 
+                "500": {
+                  "description": "Internal server error"
+                }
+              },
+              "security": [
+                {
+                  "JWT": []
+                }
+              ]
             }
-        },
-        "/notes/{:_id}": {
+          },
+        "/notes/{noteid}": {
             "get": {
                 "tags": ["Note"],
                 "summary":"Getting one notes info",
@@ -465,14 +462,17 @@
                 }
             },
             "Note":{
-                "type":"object",
-                "properties":{
+                "type": "object",
+                     "properties":{
                     "Title":{
                         "type":"string"
                     },"Descreption":{
                         "type":"string"
                     },
                     "color":{
+                        "type":"string"
+                    },
+                    "_id":{
                         "type":"string"
                     }
                     

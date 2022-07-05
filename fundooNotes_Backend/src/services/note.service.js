@@ -4,7 +4,15 @@ import note from '../models/note.model';
 // for creating the note
 export const createNote = async (body) => {
     const data = await note.create(body);
+    console.log("inside data",data);
   return data;
+    // note.create(body)
+    // .then(data=>{
+    //   console.log(data)
+    //   return data;
+    // }).catch(error=>{
+    //   console.log(error)
+    // })
 }
 
 //for getting all the notes
