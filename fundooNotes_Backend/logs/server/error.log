@@ -177,3 +177,1005 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-06-29T03:06:31.752Z"}
+error: 
+    status - 500 
+    message - Error: "Title" is required 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-29T03:17:46.174Z"}
+error: 
+    status - 500 
+    message - Error: "value" must be of type object 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-30T03:47:47.686Z"}
+error: 
+    status - 500 
+    message - Error: "value" must be of type object 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-30T03:48:09.971Z"}
+error: 
+    status - 500 
+    message - Error: "value" must be of type object 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-30T03:49:05.488Z"}
+error: 
+    status - 500 
+    message - Error: "UserID" is not allowed 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-30T03:50:59.867Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:198:9)
+    at invokeCallback (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:327:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:467:12)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-30T03:57:26.935Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd729db54a7724f4dc3549/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T09:54:39.648Z"}
+error: 
+    status - 500 
+    message - ReferenceError: taskServices is not defined
+    at archiveNote (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\controllers\/note.controller.js:91:5)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/notes/62bd729db54a7724f4dc3549/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T10:31:21.609Z"}
+error: 
+    status - 500 
+    message - TypeError: _note.default.updateCard is not a function
+    at Object.archiveNote (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\services\/note.service.js:64:10)
+    at archiveNote (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\controllers\/note.controller.js:91:17)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/notes/62bd729db54a7724f4dc3549/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T10:32:08.099Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T10:45:58.752Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:198:9)
+    at invokeCallback (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:327:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:467:12)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T10:46:10.881Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T10:46:22.429Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T10:47:57.339Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T10:48:32.693Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T10:52:31.810Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T10:54:30.516Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T10:54:40.731Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T11:16:03.559Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T11:16:41.027Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T12:45:33.294Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bd20641c00f702847e9c9c/isArchived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T12:46:05.234Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bfbe9adf512c294ce99aeb 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-02T10:43:08.470Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bfbe9adf512c294ce99aeb 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-02T10:56:56.571Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c4 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:32:39.560Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c4 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:36:42.524Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c4 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:42:55.851Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c47 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:45:23.013Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c47 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:45:44.467Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c47 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:46:02.848Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c47 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:48:33.420Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c47 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:48:35.167Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c47 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:50:04.447Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c47 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:50:05.985Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c47 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:50:27.489Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-07-06T10:20:49.348Z"}
+error: uncaughtException: expected 201 to equal 200
+AssertionError: expected 201 to equal 200
+    at Test.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\tests\integration\/user.test.js:42:40)
+    at Test.assert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21) {"date":"Wed Jul 06 2022 15:50:53 GMT+0530 (India Standard Time)","error":{"actual":201,"expected":200,"message":"expected 201 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 201 to equal 200\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:42:40)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1577576},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18727741,"external":21005056,"heapTotal":158965760,"heapUsed":132464760,"rss":196112384},"pid":2436,"uid":null,"version":"v14.15.4"},"stack":"AssertionError: expected 201 to equal 200\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:42:40)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)","timestamp":"2022-07-06T10:20:54.041Z","trace":[{"column":40,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js","function":null,"line":42,"method":null,"native":false},{"column":6,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":421,"method":"onceWrapper","native":false},{"column":20,"file":"events.js","function":"Server.emit","line":315,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1659,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":79,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-07-06T10:27:53.151Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-07-06T10:37:56.804Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-07-06T10:49:58.549Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-07-06T11:19:33.274Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-07-06T11:19:55.028Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-07-06T11:25:33.658Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-07-06T11:27:42.549Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" must be a string 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-07-06T11:45:52.143Z"}
+error: uncaughtException: expected 200 to equal 201
+AssertionError: expected 200 to equal 201
+    at Test.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\tests\integration\/user.test.js:77:40)
+    at Test.assert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21) {"date":"Wed Jul 06 2022 17:15:52 GMT+0530 (India Standard Time)","error":{"actual":200,"expected":201,"message":"expected 200 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 200 to equal 201\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:77:40)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1582675},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18850565,"external":21128739,"heapTotal":154378240,"heapUsed":119041816,"rss":191442944},"pid":14776,"uid":null,"version":"v14.15.4"},"stack":"AssertionError: expected 200 to equal 201\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:77:40)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)","timestamp":"2022-07-06T11:45:52.845Z","trace":[{"column":40,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js","function":null,"line":77,"method":null,"native":false},{"column":6,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":421,"method":"onceWrapper","native":false},{"column":20,"file":"events.js","function":"Server.emit","line":315,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1659,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":79,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" must be a string 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-07-06T11:50:13.803Z"}
+error: uncaughtException: expected 500 to equal 400
+AssertionError: expected 500 to equal 400
+    at Test.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\tests\integration\/user.test.js:61:38)
+    at Test.assert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21) {"date":"Wed Jul 06 2022 17:20:13 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":400,"message":"expected 500 to equal 400","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 400\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:61:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1582936},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18693298,"external":20972185,"heapTotal":154378240,"heapUsed":117751024,"rss":191700992},"pid":10548,"uid":null,"version":"v14.15.4"},"stack":"AssertionError: expected 500 to equal 400\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:61:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)","timestamp":"2022-07-06T11:50:13.884Z","trace":[{"column":38,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js","function":null,"line":61,"method":null,"native":false},{"column":6,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":421,"method":"onceWrapper","native":false},{"column":20,"file":"events.js","function":"Server.emit","line":315,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1659,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":79,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" must be a string 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-07-06T11:52:44.602Z"}
+error: uncaughtException: expected 400 to equal 500
+AssertionError: expected 400 to equal 500
+    at Test.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\tests\integration\/user.test.js:93:38)
+    at Test.assert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21) {"date":"Wed Jul 06 2022 17:22:45 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":500,"message":"expected 400 to equal 500","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 500\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:93:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1583088},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18471218,"external":20239701,"heapTotal":163303424,"heapUsed":112639032,"rss":199913472},"pid":2692,"uid":null,"version":"v14.15.4"},"stack":"AssertionError: expected 400 to equal 500\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:93:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)","timestamp":"2022-07-06T11:52:45.882Z","trace":[{"column":38,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js","function":null,"line":93,"method":null,"native":false},{"column":6,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":421,"method":"onceWrapper","native":false},{"column":20,"file":"events.js","function":"Server.emit","line":315,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1659,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":79,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" must be a string 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-07-06T11:59:09.552Z"}
+error: uncaughtException: expected 500 to equal 400
+AssertionError: expected 500 to equal 400
+    at Test.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\tests\integration\/user.test.js:61:38)
+    at Test.assert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21) {"date":"Wed Jul 06 2022 17:29:09 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":400,"message":"expected 500 to equal 400","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 400\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:61:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1583471},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18449926,"external":20727511,"heapTotal":167747584,"heapUsed":112873600,"rss":204447744},"pid":16968,"uid":null,"version":"v14.15.4"},"stack":"AssertionError: expected 500 to equal 400\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:61:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)","timestamp":"2022-07-06T11:59:09.623Z","trace":[{"column":38,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js","function":null,"line":61,"method":null,"native":false},{"column":6,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":421,"method":"onceWrapper","native":false},{"column":20,"file":"events.js","function":"Server.emit","line":315,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1659,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":79,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-07-06T12:02:51.033Z"}
+error: uncaughtException: expected 500 to equal 400
+AssertionError: expected 500 to equal 400
+    at Test.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\tests\integration\/user.test.js:61:38)
+    at Test.assert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21) {"date":"Wed Jul 06 2022 17:32:51 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":400,"message":"expected 500 to equal 400","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 400\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:61:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1583693},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18444807,"external":20213290,"heapTotal":165662720,"heapUsed":111721800,"rss":201834496},"pid":5284,"uid":null,"version":"v14.15.4"},"stack":"AssertionError: expected 500 to equal 400\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:61:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)","timestamp":"2022-07-06T12:02:51.091Z","trace":[{"column":38,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js","function":null,"line":61,"method":null,"native":false},{"column":6,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":421,"method":"onceWrapper","native":false},{"column":20,"file":"events.js","function":"Server.emit","line":315,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1659,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":79,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-07-06T12:05:49.481Z"}
+error: uncaughtException: expected 500 to equal 400
+AssertionError: expected 500 to equal 400
+    at Test.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\tests\integration\/user.test.js:61:38)
+    at Test.assert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21) {"date":"Wed Jul 06 2022 17:35:49 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":400,"message":"expected 500 to equal 400","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 400\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:61:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1583871},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18705474,"external":20984037,"heapTotal":155688960,"heapUsed":117443976,"rss":192311296},"pid":3372,"uid":null,"version":"v14.15.4"},"stack":"AssertionError: expected 500 to equal 400\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:61:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)","timestamp":"2022-07-06T12:05:49.632Z","trace":[{"column":38,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js","function":null,"line":61,"method":null,"native":false},{"column":6,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":421,"method":"onceWrapper","native":false},{"column":20,"file":"events.js","function":"Server.emit","line":315,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1659,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":79,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-07-06T12:08:18.470Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-07-07T02:37:28.820Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:198:9)
+    at invokeCallback (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-07-07T02:45:21.188Z"}
+error: uncaughtException: expected 500 to equal 400
+AssertionError: expected 500 to equal 400
+    at Test.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\tests\integration\/user.test.js:61:38)
+    at Test.assert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21) {"date":"Thu Jul 07 2022 08:15:21 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":400,"message":"expected 500 to equal 400","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 400\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:61:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1636643},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18998348,"external":21292076,"heapTotal":153329664,"heapUsed":122445608,"rss":191262720},"pid":15644,"uid":null,"version":"v14.15.4"},"stack":"AssertionError: expected 500 to equal 400\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:61:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)","timestamp":"2022-07-07T02:45:21.273Z","trace":[{"column":38,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js","function":null,"line":61,"method":null,"native":false},{"column":6,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":421,"method":"onceWrapper","native":false},{"column":20,"file":"events.js","function":"Server.emit","line":315,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1659,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":79,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:198:9)
+    at invokeCallback (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-07-07T03:06:53.332Z"}
+error: uncaughtException: expected 500 to equal 400
+AssertionError: expected 500 to equal 400
+    at Test.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\tests\integration\/user.test.js:61:38)
+    at Test.assert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21) {"date":"Thu Jul 07 2022 08:36:53 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":400,"message":"expected 500 to equal 400","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 400\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:61:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1637935},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18889354,"external":21177879,"heapTotal":149131264,"heapUsed":120038056,"rss":186384384},"pid":12372,"uid":null,"version":"v14.15.4"},"stack":"AssertionError: expected 500 to equal 400\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:61:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)","timestamp":"2022-07-07T03:06:53.387Z","trace":[{"column":38,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js","function":null,"line":61,"method":null,"native":false},{"column":6,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":421,"method":"onceWrapper","native":false},{"column":20,"file":"events.js","function":"Server.emit","line":315,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1659,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":79,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:198:9)
+    at invokeCallback (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-07-07T07:34:34.273Z"}
+error: uncaughtException: expected 500 to equal 400
+AssertionError: expected 500 to equal 400
+    at Test.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\tests\integration\/user.test.js:62:38)
+    at Test.assert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21) {"date":"Thu Jul 07 2022 13:04:34 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":400,"message":"expected 500 to equal 400","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 400\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:62:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1653996},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18967966,"external":21256631,"heapTotal":156471296,"heapUsed":118607424,"rss":194412544},"pid":7784,"uid":null,"version":"v14.15.4"},"stack":"AssertionError: expected 500 to equal 400\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:62:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)","timestamp":"2022-07-07T07:34:34.360Z","trace":[{"column":38,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js","function":null,"line":62,"method":null,"native":false},{"column":6,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":421,"method":"onceWrapper","native":false},{"column":20,"file":"events.js","function":"Server.emit","line":315,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1659,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":79,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:198:9)
+    at invokeCallback (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-07-07T07:35:04.485Z"}
+error: uncaughtException: expected 400 to equal 500
+AssertionError: expected 400 to equal 500
+    at Test.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\tests\integration\/user.test.js:62:38)
+    at Test.assert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21) {"date":"Thu Jul 07 2022 13:06:18 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":500,"message":"expected 400 to equal 500","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 500\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:62:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1654100},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18956365,"external":21231352,"heapTotal":163287040,"heapUsed":122755112,"rss":198492160},"pid":8256,"uid":null,"version":"v14.15.4"},"stack":"AssertionError: expected 400 to equal 500\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:62:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)","timestamp":"2022-07-07T07:36:18.639Z","trace":[{"column":38,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js","function":null,"line":62,"method":null,"native":false},{"column":6,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":421,"method":"onceWrapper","native":false},{"column":20,"file":"events.js","function":"Server.emit","line":315,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1659,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":79,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "Descreption" must be a string 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-07-07T09:00:00.198Z"}
+error: uncaughtException: expected 500 to equal 400
+AssertionError: expected 500 to equal 400
+    at Test.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\tests\integration\/user.test.js:128:38)
+    at Test.assert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21) {"date":"Thu Jul 07 2022 14:30:00 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":400,"message":"expected 500 to equal 400","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 400\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:128:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1659122},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18725230,"external":21005047,"heapTotal":152543232,"heapUsed":119877560,"rss":189964288},"pid":15096,"uid":null,"version":"v14.15.4"},"stack":"AssertionError: expected 500 to equal 400\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:128:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)","timestamp":"2022-07-07T09:00:00.295Z","trace":[{"column":38,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js","function":null,"line":128,"method":null,"native":false},{"column":6,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":421,"method":"onceWrapper","native":false},{"column":20,"file":"events.js","function":"Server.emit","line":315,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1659,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":79,"method":null,"native":false}]}
+error: uncaughtException: expected 201 to equal 500
+AssertionError: expected 201 to equal 500
+    at Test.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\tests\integration\/user.test.js:131:38)
+    at Test.assert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21) {"date":"Thu Jul 07 2022 21:02:30 GMT+0530 (India Standard Time)","error":{"actual":201,"expected":500,"message":"expected 201 to equal 500","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 201 to equal 500\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:131:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1682672},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18974928,"external":21279582,"heapTotal":163840000,"heapUsed":122156280,"rss":202747904},"pid":8668,"uid":null,"version":"v14.15.4"},"stack":"AssertionError: expected 201 to equal 500\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:131:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)","timestamp":"2022-07-07T15:32:30.324Z","trace":[{"column":38,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js","function":null,"line":131,"method":null,"native":false},{"column":6,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":421,"method":"onceWrapper","native":false},{"column":20,"file":"events.js","function":"Server.emit","line":315,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1659,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":79,"method":null,"native":false}]}
+error: uncaughtException: expected 201 to equal 400
+AssertionError: expected 201 to equal 400
+    at Test.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\tests\integration\/user.test.js:131:38)
+    at Test.assert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21) {"date":"Thu Jul 07 2022 21:15:04 GMT+0530 (India Standard Time)","error":{"actual":201,"expected":400,"message":"expected 201 to equal 400","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 201 to equal 400\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:131:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1683427},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18626019,"external":20931236,"heapTotal":159645696,"heapUsed":118066832,"rss":198168576},"pid":7476,"uid":null,"version":"v14.15.4"},"stack":"AssertionError: expected 201 to equal 400\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:131:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)","timestamp":"2022-07-07T15:45:04.842Z","trace":[{"column":38,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js","function":null,"line":131,"method":null,"native":false},{"column":6,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":421,"method":"onceWrapper","native":false},{"column":20,"file":"events.js","function":"Server.emit","line":315,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1659,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":79,"method":null,"native":false}]}
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\tests\integration\/user.test.js:179:38)
+    at Test.assert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21) {"date":"Thu Jul 07 2022 21:21:48 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:179:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1683830},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18596102,"external":20365898,"heapTotal":162254848,"heapUsed":116900856,"rss":199708672},"pid":17032,"uid":null,"version":"v14.15.4"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:179:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)","timestamp":"2022-07-07T15:51:48.520Z","trace":[{"column":38,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js","function":null,"line":179,"method":null,"native":false},{"column":6,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":421,"method":"onceWrapper","native":false},{"column":20,"file":"events.js","function":"Server.emit","line":315,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1659,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":79,"method":null,"native":false}]}
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\tests\integration\/user.test.js:179:38)
+    at Test.assert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21) {"date":"Thu Jul 07 2022 21:29:23 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:179:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1684285},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18827976,"external":21133057,"heapTotal":160432128,"heapUsed":119310160,"rss":198696960},"pid":19364,"uid":null,"version":"v14.15.4"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:179:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)","timestamp":"2022-07-07T15:59:23.516Z","trace":[{"column":38,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js","function":null,"line":179,"method":null,"native":false},{"column":6,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":421,"method":"onceWrapper","native":false},{"column":20,"file":"events.js","function":"Server.emit","line":315,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1659,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":79,"method":null,"native":false}]}
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\tests\integration\/user.test.js:179:38)
+    at Test.assert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21) {"date":"Thu Jul 07 2022 21:36:45 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:179:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1684727},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18900338,"external":21205009,"heapTotal":162004992,"heapUsed":122808768,"rss":199327744},"pid":15608,"uid":null,"version":"v14.15.4"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:179:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)","timestamp":"2022-07-07T16:06:45.457Z","trace":[{"column":38,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js","function":null,"line":179,"method":null,"native":false},{"column":6,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":421,"method":"onceWrapper","native":false},{"column":20,"file":"events.js","function":"Server.emit","line":315,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1659,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":79,"method":null,"native":false}]}
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\tests\integration\/user.test.js:179:38)
+    at Test.assert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21) {"date":"Thu Jul 07 2022 21:38:12 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:179:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1684814},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18900338,"external":21204789,"heapTotal":162529280,"heapUsed":124686648,"rss":201048064},"pid":23348,"uid":null,"version":"v14.15.4"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:179:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)","timestamp":"2022-07-07T16:08:12.302Z","trace":[{"column":38,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js","function":null,"line":179,"method":null,"native":false},{"column":6,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":421,"method":"onceWrapper","native":false},{"column":20,"file":"events.js","function":"Server.emit","line":315,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1659,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":79,"method":null,"native":false}]}
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\tests\integration\/user.test.js:179:38)
+    at Test.assert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21) {"date":"Thu Jul 07 2022 21:39:45 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:179:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1684908},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18327057,"external":20096853,"heapTotal":161730560,"heapUsed":115767400,"rss":199131136},"pid":8788,"uid":null,"version":"v14.15.4"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:179:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)","timestamp":"2022-07-07T16:09:45.990Z","trace":[{"column":38,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js","function":null,"line":179,"method":null,"native":false},{"column":6,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":421,"method":"onceWrapper","native":false},{"column":20,"file":"events.js","function":"Server.emit","line":315,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1659,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":79,"method":null,"native":false}]}
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\tests\integration\/user.test.js:179:38)
+    at Test.assert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21) {"date":"Thu Jul 07 2022 21:48:21 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:179:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1685423},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18557551,"external":20327347,"heapTotal":161992704,"heapUsed":122059880,"rss":199995392},"pid":10180,"uid":null,"version":"v14.15.4"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:179:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)","timestamp":"2022-07-07T16:18:21.138Z","trace":[{"column":38,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js","function":null,"line":179,"method":null,"native":false},{"column":6,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":421,"method":"onceWrapper","native":false},{"column":20,"file":"events.js","function":"Server.emit","line":315,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1659,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":79,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - Error: Callback must be a function, got [object Object]
+    at MongooseError.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at new MongooseError (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at Function.Model.$handleCallbackError (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\mongoose\lib\model.js:5067:11)
+    at Function.findOne (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\mongoose\lib\model.js:2266:19)
+    at _callee2$ (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\services\/user.service.js:19:29)
+    at tryCatch (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.userRegistration (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\services\/user.service.js:18:30)
+    at _callee3$ (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\controllers\/user.controller.js:51:36) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-08T02:01:08.494Z"}
+error: 
+    status - 500 
+    message - Error: Callback must be a function, got [object Object]
+    at MongooseError.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at new MongooseError (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at Function.Model.$handleCallbackError (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\mongoose\lib\model.js:5067:11)
+    at Function.findOne (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\mongoose\lib\model.js:2266:19)
+    at _callee2$ (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\services\/user.service.js:19:29)
+    at tryCatch (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.userRegistration (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\services\/user.service.js:18:30)
+    at _callee3$ (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\controllers\/user.controller.js:51:36) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-08T02:05:31.712Z"}
+error: 
+    status - 500 
+    message - Error: user already existed
+    at Error.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at _callee2$ (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\services\/user.service.js:22:11)
+    at tryCatch (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-08T02:06:56.310Z"}
+error: 
+    status - 500 
+    message - Error: user already existed
+    at Error.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at _callee2$ (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\services\/user.service.js:22:11)
+    at tryCatch (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-08T02:08:30.861Z"}
+error: 
+    status - 500 
+    message - Error: user already existed
+    at Error.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at _callee2$ (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\services\/user.service.js:22:11)
+    at tryCatch (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-08T02:12:24.611Z"}
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\tests\integration\/user.test.js:179:38)
+    at Test.assert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21) {"date":"Fri Jul 08 2022 08:14:58 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:179:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1723020},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18735463,"external":20505259,"heapTotal":160681984,"heapUsed":114694600,"rss":198017024},"pid":8472,"uid":null,"version":"v14.15.4"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:179:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)","timestamp":"2022-07-08T02:44:58.257Z","trace":[{"column":38,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js","function":null,"line":179,"method":null,"native":false},{"column":6,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":421,"method":"onceWrapper","native":false},{"column":20,"file":"events.js","function":"Server.emit","line":315,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1659,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":79,"method":null,"native":false}]}
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\tests\integration\/user.test.js:179:38)
+    at Test.assert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21) {"date":"Fri Jul 08 2022 08:23:28 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:179:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1723530},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18749036,"external":21055385,"heapTotal":159911936,"heapUsed":118855792,"rss":198287360},"pid":8792,"uid":null,"version":"v14.15.4"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:179:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)","timestamp":"2022-07-08T02:53:28.093Z","trace":[{"column":38,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js","function":null,"line":179,"method":null,"native":false},{"column":6,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":421,"method":"onceWrapper","native":false},{"column":20,"file":"events.js","function":"Server.emit","line":315,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1659,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":79,"method":null,"native":false}]}
+error: uncaughtException: expected 202 to equal 200
+AssertionError: expected 202 to equal 200
+    at Test.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\tests\integration\/user.test.js:179:38)
+    at Test.assert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21) {"date":"Fri Jul 08 2022 08:28:03 GMT+0530 (India Standard Time)","error":{"actual":202,"expected":200,"message":"expected 202 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 202 to equal 200\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:179:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1723805},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18306125,"external":20074608,"heapTotal":109559808,"heapUsed":106408408,"rss":147329024},"pid":13700,"uid":null,"version":"v14.15.4"},"stack":"AssertionError: expected 202 to equal 200\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:179:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)","timestamp":"2022-07-08T02:58:03.622Z","trace":[{"column":38,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js","function":null,"line":179,"method":null,"native":false},{"column":6,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":421,"method":"onceWrapper","native":false},{"column":20,"file":"events.js","function":"Server.emit","line":315,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1659,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":79,"method":null,"native":false}]}
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\tests\integration\/user.test.js:83:40)
+    at Test.assert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21) {"date":"Fri Jul 08 2022 12:57:45 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:83:40)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1739987},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18454146,"external":20222629,"heapTotal":164089856,"heapUsed":112278064,"rss":200220672},"pid":13032,"uid":null,"version":"v14.15.4"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:83:40)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)","timestamp":"2022-07-08T07:27:45.499Z","trace":[{"column":40,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js","function":null,"line":83,"method":null,"native":false},{"column":6,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":421,"method":"onceWrapper","native":false},{"column":20,"file":"events.js","function":"Server.emit","line":315,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1659,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":79,"method":null,"native":false}]}
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\tests\integration\/user.test.js:82:40)
+    at Test.assert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21) {"date":"Fri Jul 08 2022 13:02:45 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:82:40)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1740287},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18977189,"external":21278421,"heapTotal":151777280,"heapUsed":121728624,"rss":188780544},"pid":19332,"uid":null,"version":"v14.15.4"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:82:40)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)","timestamp":"2022-07-08T07:32:45.220Z","trace":[{"column":40,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js","function":null,"line":82,"method":null,"native":false},{"column":6,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":421,"method":"onceWrapper","native":false},{"column":20,"file":"events.js","function":"Server.emit","line":315,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1659,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":79,"method":null,"native":false}]}
+error: uncaughtException: expected 202 to equal 200
+AssertionError: expected 202 to equal 200
+    at Test.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\tests\integration\/user.test.js:226:38)
+    at Test.assert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21) {"date":"Fri Jul 08 2022 14:25:40 GMT+0530 (India Standard Time)","error":{"actual":202,"expected":200,"message":"expected 202 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 202 to equal 200\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:226:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1745262},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18542722,"external":20311205,"heapTotal":166711296,"heapUsed":115578560,"rss":204206080},"pid":22556,"uid":null,"version":"v14.15.4"},"stack":"AssertionError: expected 202 to equal 200\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:226:38)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)","timestamp":"2022-07-08T08:55:40.166Z","trace":[{"column":38,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js","function":null,"line":226,"method":null,"native":false},{"column":6,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":421,"method":"onceWrapper","native":false},{"column":20,"file":"events.js","function":"Server.emit","line":315,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1659,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":79,"method":null,"native":false}]}
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\tests\integration\/user.test.js:82:40)
+    at Test.assert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21) {"date":"Fri Jul 08 2022 14:27:36 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:82:40)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1745378},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19207734,"external":21523697,"heapTotal":151007232,"heapUsed":123441528,"rss":188370944},"pid":1820,"uid":null,"version":"v14.15.4"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:82:40)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)","timestamp":"2022-07-08T08:57:36.145Z","trace":[{"column":40,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js","function":null,"line":82,"method":null,"native":false},{"column":6,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":421,"method":"onceWrapper","native":false},{"column":20,"file":"events.js","function":"Server.emit","line":315,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1659,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":79,"method":null,"native":false}]}
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\tests\integration\/user.test.js:82:40)
+    at Test.assert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21) {"date":"Fri Jul 08 2022 14:36:06 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:82:40)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1745889},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18478134,"external":20246617,"heapTotal":161468416,"heapUsed":111283720,"rss":198832128},"pid":12096,"uid":null,"version":"v14.15.4"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js:82:40)\n    at Test.assert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Server.emit (events.js:315:20)\n    at emitCloseNT (net.js:1659:8)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)","timestamp":"2022-07-08T09:06:06.978Z","trace":[{"column":40,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\tests\\integration\\/user.test.js","function":null,"line":82,"method":null,"native":false},{"column":6,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":421,"method":"onceWrapper","native":false},{"column":20,"file":"events.js","function":"Server.emit","line":315,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1659,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":79,"method":null,"native":false}]}
+error: uncaughtException: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of model
+TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of model
+    at Function.from (buffer.js:333:9)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\utils\/rabbitmq.js:24:43
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\amqplib\lib\callback_model.js:44:29
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\amqplib\lib\callback_model.js:58:7
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\amqplib\lib\callback_model.js:73:5
+    at reply (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\amqplib\lib\channel.js:105:16)
+    at Channel.C.accept (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\amqplib\lib\channel.js:450:12)
+    at Connection.mainAccept [as accept] (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\amqplib\lib\connection.js:63:33)
+    at Socket.go (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\amqplib\lib\connection.js:486:48)
+    at Socket.emit (events.js:315:20)
+    at Socket.EventEmitter.emit (domain.js:467:12)
+    at emitReadable_ (internal/streams/readable.js:569:12)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21) {"date":"Sat Jul 09 2022 15:12:45 GMT+0530 (India Standard Time)","error":{"code":"ERR_INVALID_ARG_TYPE"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1834487},"process":{"argv":["node","C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\src\\index.js"],"cwd":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18363227,"external":20765361,"heapTotal":112717824,"heapUsed":108981624,"rss":152223744},"pid":14404,"uid":null,"version":"v14.15.4"},"stack":"TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of model\n    at Function.from (buffer.js:333:9)\n    at C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\src\\utils\\/rabbitmq.js:24:43\n    at C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\amqplib\\lib\\callback_model.js:44:29\n    at C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\amqplib\\lib\\callback_model.js:58:7\n    at C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\amqplib\\lib\\callback_model.js:73:5\n    at reply (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\amqplib\\lib\\channel.js:105:16)\n    at Channel.C.accept (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\amqplib\\lib\\channel.js:450:12)\n    at Connection.mainAccept [as accept] (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\amqplib\\lib\\connection.js:63:33)\n    at Socket.go (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\amqplib\\lib\\connection.js:486:48)\n    at Socket.emit (events.js:315:20)\n    at Socket.EventEmitter.emit (domain.js:467:12)\n    at emitReadable_ (internal/streams/readable.js:569:12)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)","timestamp":"2022-07-09T09:42:45.421Z","trace":[{"column":9,"file":"buffer.js","function":"Function.from","line":333,"method":"from","native":false},{"column":43,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\src\\utils\\/rabbitmq.js","function":null,"line":24,"method":null,"native":false},{"column":29,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":44,"method":null,"native":false},{"column":7,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":58,"method":null,"native":false},{"column":5,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":73,"method":null,"native":false},{"column":16,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\amqplib\\lib\\channel.js","function":"reply","line":105,"method":null,"native":false},{"column":12,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.accept","line":450,"method":"accept","native":false},{"column":33,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.mainAccept [as accept]","line":63,"method":"mainAccept [as accept]","native":false},{"column":48,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\amqplib\\lib\\connection.js","function":"Socket.go","line":486,"method":"go","native":false},{"column":20,"file":"events.js","function":"Socket.emit","line":315,"method":"emit","native":false},{"column":12,"file":"domain.js","function":"Socket.EventEmitter.emit","line":467,"method":"emit","native":false},{"column":12,"file":"internal/streams/readable.js","function":"emitReadable_","line":569,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":79,"method":null,"native":false}]}
+error: uncaughtException: userMailID is not defined
+ReferenceError: userMailID is not defined
+    at channel.consume.noAck (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\utils\/rabbitmq.js:61:22)
+    at Channel.BaseChannel.dispatchMessage (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\amqplib\lib\channel.js:483:12)
+    at Channel.BaseChannel.handleDelivery (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\amqplib\lib\channel.js:492:15)
+    at Channel.emit (events.js:315:20)
+    at Channel.EventEmitter.emit (domain.js:467:12)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\amqplib\lib\channel.js:278:10
+    at Channel.content [as handleMessage] (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\amqplib\lib\channel.js:331:9)
+    at Channel.C.acceptMessageFrame (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\amqplib\lib\channel.js:246:31)
+    at Channel.C.accept (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\amqplib\lib\channel.js:399:17)
+    at Connection.mainAccept [as accept] (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\amqplib\lib\connection.js:63:33)
+    at Socket.go (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\amqplib\lib\connection.js:486:48)
+    at Socket.emit (events.js:315:20)
+    at Socket.EventEmitter.emit (domain.js:467:12)
+    at emitReadable_ (internal/streams/readable.js:569:12)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21) {"date":"Mon Jul 11 2022 11:05:08 GMT+0530 (India Standard Time)","error":{"code":541},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1992430},"process":{"argv":["node","C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\src\\index.js"],"cwd":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19325564,"external":22190354,"heapTotal":175538176,"heapUsed":153324024,"rss":215846912},"pid":15984,"uid":null,"version":"v14.15.4"},"stack":"ReferenceError: userMailID is not defined\n    at channel.consume.noAck (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\src\\utils\\/rabbitmq.js:61:22)\n    at Channel.BaseChannel.dispatchMessage (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\amqplib\\lib\\channel.js:483:12)\n    at Channel.BaseChannel.handleDelivery (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\amqplib\\lib\\channel.js:492:15)\n    at Channel.emit (events.js:315:20)\n    at Channel.EventEmitter.emit (domain.js:467:12)\n    at C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\amqplib\\lib\\channel.js:278:10\n    at Channel.content [as handleMessage] (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\amqplib\\lib\\channel.js:331:9)\n    at Channel.C.acceptMessageFrame (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\amqplib\\lib\\channel.js:246:31)\n    at Channel.C.accept (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\amqplib\\lib\\channel.js:399:17)\n    at Connection.mainAccept [as accept] (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\amqplib\\lib\\connection.js:63:33)\n    at Socket.go (C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\amqplib\\lib\\connection.js:486:48)\n    at Socket.emit (events.js:315:20)\n    at Socket.EventEmitter.emit (domain.js:467:12)\n    at emitReadable_ (internal/streams/readable.js:569:12)\n    at processTicksAndRejections (internal/process/task_queues.js:79:21)","timestamp":"2022-07-11T05:35:08.543Z","trace":[{"column":22,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\src\\utils\\/rabbitmq.js","function":"channel.consume.noAck","line":61,"method":"noAck","native":false},{"column":12,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.BaseChannel.dispatchMessage","line":483,"method":"dispatchMessage","native":false},{"column":15,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.BaseChannel.handleDelivery","line":492,"method":"handleDelivery","native":false},{"column":20,"file":"events.js","function":"Channel.emit","line":315,"method":"emit","native":false},{"column":12,"file":"domain.js","function":"Channel.EventEmitter.emit","line":467,"method":"emit","native":false},{"column":10,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\amqplib\\lib\\channel.js","function":null,"line":278,"method":null,"native":false},{"column":9,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.content [as handleMessage]","line":331,"method":"content [as handleMessage]","native":false},{"column":31,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.acceptMessageFrame","line":246,"method":"acceptMessageFrame","native":false},{"column":17,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.accept","line":399,"method":"accept","native":false},{"column":33,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.mainAccept [as accept]","line":63,"method":"mainAccept [as accept]","native":false},{"column":48,"file":"C:\\Users\\soora\\Desktop\\fundooNotes_Backend\\fundooNotes_Backend\\node_modules\\amqplib\\lib\\connection.js","function":"Socket.go","line":486,"method":"go","native":false},{"column":20,"file":"events.js","function":"Socket.emit","line":315,"method":"emit","native":false},{"column":12,"file":"domain.js","function":"Socket.EventEmitter.emit","line":467,"method":"emit","native":false},{"column":12,"file":"internal/streams/readable.js","function":"emitReadable_","line":569,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":79,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - Error: user already existed
+    at Error.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at _callee2$ (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\services\/user.service.js:24:11)
+    at tryCatch (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-11T05:38:05.765Z"}
+error: 
+    status - 500 
+    message - Error: user already existed
+    at Error.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at _callee2$ (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\services\/user.service.js:24:11)
+    at tryCatch (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-11T06:11:01.806Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 60
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:198:9)
+    at invokeCallback (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:327:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:467:12)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+    url - /api/v1/users/forgotpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-11T07:00:50.030Z"}

@@ -1,0 +1,34 @@
+info: ::1 - - [05/Jul/2022:06:02:38 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:06:02:39 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:06:02:47 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:06:02:47 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:06:02:47 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:06:02:47 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:06:02:47 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:09:28:01 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 400 33 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:09:29:02 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 400 64 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:09:40:53 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 50 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:09:41:47 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 48 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:09:48:48 +0000] "POST /api/v1/users HTTP/1.1" 201 331 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:09:50:06 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 48 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:09:53:56 +0000] "GET /eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJvd2lwMzY3NzFAbWVpZGlyLmNvbSIsImlhdCI6MTY1NzAxNDYwNn0.K83r_IjsgG1a1Lm1ja8qvAfVai8Q1I8wu44LlnLrnvo HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Jul/2022:16:14:17 +0000] "POST /api/v1/users/resetpassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJvd2lwMzY3NzFAbWVpZGlyLmNvbSIsImlhdCI6MTY1NzAxNDYwNn0.K83r_IjsgG1a1Lm1ja8qvAfVai8Q1I8wu44LlnLrnvo HTTP/1.1" 200 298 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:16:15:56 +0000] "POST /api/v1/users/resetpassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJvd2lwMzY3NzFAbWVpZGlyLmNvbSIsImlhdCI6MTY1NzAxNDYwNn0.K83r_IjsgG1a1Lm1ja8qvAfVai8Q1I8wu44LlnLrnvo HTTP/1.1" 200 289 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:16:23:34 +0000] "GET /eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJvd2lwMzY3NzFAbWVpZGlyLmNvbSIsImlhdCI6MTY1NzAxNDYwNn0.K83r_IjsgG1a1Lm1ja8qvAfVai8Q1I8wu44LlnLrnvo HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+

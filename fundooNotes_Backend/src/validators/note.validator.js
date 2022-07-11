@@ -4,13 +4,13 @@ export const noteValidator = (req, res, next) => {
   const schema = Joi.object({
     Title: Joi.string().min(2).required(),
     Descreption: Joi.string().min(2).required(),
-    color: Joi.string()
+    color: Joi.string().optional()
   });
   const { error, value } = schema.validate(req.body);
   if (error) {
     next(error);
   } else {
-    req.validatedBody = value;
+    // req.validatedBody = value;
     next();
   }
 };

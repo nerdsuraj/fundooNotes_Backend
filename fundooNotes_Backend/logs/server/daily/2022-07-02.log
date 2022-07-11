@@ -1,0 +1,231 @@
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T03:06:41.599Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T03:06:41.644Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T03:08:39.424Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T03:08:39.518Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T03:11:31.366Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T03:11:31.389Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T03:34:05.940Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T03:34:05.961Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T03:45:05.100Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T03:45:05.154Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T10:34:55.865Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T10:34:55.918Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T10:41:27.408Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T10:41:27.462Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bfbe9adf512c294ce99aeb 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-02T10:43:08.470Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T10:46:58.493Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T10:46:58.554Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T10:48:21.231Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T10:48:21.265Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T10:50:29.271Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T10:50:29.316Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T10:51:37.394Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T10:51:37.443Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T10:51:57.904Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T10:51:57.949Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T10:52:12.620Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T10:52:12.669Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62bfbe9adf512c294ce99aeb 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-02T10:56:56.571Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T11:02:52.114Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T11:02:52.159Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T11:03:36.065Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T11:03:36.114Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T11:05:54.280Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T11:05:54.338Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T11:06:55.291Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T11:06:55.333Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T11:07:34.666Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T11:07:34.707Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T11:08:12.626Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T11:08:12.677Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T11:09:44.410Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T11:09:44.489Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T11:11:15.050Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T11:11:15.092Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T11:19:47.237Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T11:19:47.268Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T11:20:57.048Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T11:20:57.072Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T11:25:57.438Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T11:25:57.465Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T11:27:10.090Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T11:27:10.112Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T11:32:31.998Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T11:32:32.017Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c4 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:32:39.560Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T11:34:25.933Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T11:34:26.168Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T11:36:06.291Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T11:36:06.489Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T11:36:23.948Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T11:36:23.974Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T11:36:35.951Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T11:36:36.004Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c4 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:36:42.524Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T11:40:09.194Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T11:40:09.249Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T11:42:50.686Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T11:42:50.736Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c4 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:42:55.851Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T11:45:18.182Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T11:45:18.230Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c47 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:45:23.013Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T11:45:40.979Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T11:45:41.027Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c47 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:45:44.467Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c47 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:46:02.848Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c47 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:48:33.420Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c47 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:48:35.167Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T11:50:03.793Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T11:50:03.872Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c47 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:50:04.447Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c47 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:50:05.985Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/62c023bff317923780580c47 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-02T11:50:27.489Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T11:52:28.451Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T11:52:28.488Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T11:53:17.832Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T11:53:17.881Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T11:55:18.258Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T11:55:18.313Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T11:56:34.478Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T11:56:34.531Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T11:57:26.426Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T11:57:26.480Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T11:58:11.170Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T11:58:11.214Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T12:00:26.755Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T12:00:26.792Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T12:01:04.405Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T12:01:04.454Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T12:03:43.401Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T12:03:43.424Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T12:08:00.150Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T12:08:00.171Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T12:17:06.185Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T12:17:06.225Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T12:22:17.037Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T12:22:17.064Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T12:23:15.680Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T12:23:15.699Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T12:23:37.082Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T12:23:37.107Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T14:08:43.021Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T14:08:43.075Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T14:09:31.227Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T14:09:31.275Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T14:41:39.625Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T14:41:39.680Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T14:42:16.643Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T14:42:16.700Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T14:45:53.178Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T14:45:53.218Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T14:48:22.531Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T14:48:22.598Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T14:50:35.720Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T14:50:35.765Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T14:51:28.755Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T14:51:28.808Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T14:58:02.131Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T14:58:02.154Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T15:01:23.472Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T15:01:23.497Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T15:03:17.233Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T15:03:17.259Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T15:10:08.767Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T15:10:08.797Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T15:17:13.620Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T15:17:13.643Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T15:21:38.115Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T15:21:38.144Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T15:21:55.116Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T15:21:55.139Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T15:24:30.670Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T15:24:30.696Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T15:27:07.163Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T15:27:07.191Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T15:27:16.283Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T15:27:16.310Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T15:45:01.598Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T15:45:01.647Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T15:58:49.813Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T15:58:49.848Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-02T15:59:14.532Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T15:59:14.591Z"}

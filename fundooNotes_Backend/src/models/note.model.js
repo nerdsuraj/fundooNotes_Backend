@@ -12,17 +12,19 @@ const noteSchema = new Schema(
     },
     color: {
         type: String,
-    }
-    // isArchived: {
-    //     type: Boolean,
-    // },
-    // isDeleted: {
-    //     type: Boolean,
-    // },
-    // UserID: {
-    //     type: String
-    // }
+    },
+    isArchived: {
+        type: Boolean,
+        default:false,
     
+    },
+    isDeleted: {
+        type: Boolean,
+        default:false,
+    },
+    UserID: {
+        type: String
+    }
   },
   {
     timestamps: true
@@ -30,3 +32,5 @@ const noteSchema = new Schema(
 );
 
 export default model('Note', noteSchema);
+
+
