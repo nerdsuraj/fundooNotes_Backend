@@ -8,7 +8,7 @@ const router = express.Router();
 router.post('',noteValidator,userAuth,  noteController.createNote);
 
 //route to get all note
-router.get('',userAuth, noteController.getAllNotes);
+router.get('',userAuth,  noteController.getAllNotes);   //redis.redis_data,
 
 //route to get single note by their id
 router.get('/:_id',userAuth,noteController.getSingleNote);

@@ -2,6 +2,7 @@ import express from 'express';
 import * as userController from '../controllers/user.controller';
 import { newUserValidator } from '../validators/user.validator';
 import { userAuth } from '../middlewares/auth.middleware';
+import { emailAuth } from '../middlewares/auth.middleware';
 
 const router = express.Router();
 
@@ -24,5 +25,11 @@ router.put('/:_id', userController.updateUser);
 
 //route to delete a single user by their user id
 router.delete('/:_id', userController.deleteUser);
+
+//route to get forget password 
+router.post('/forgotpassword', userController.forgetPassword);
+
+//route to get reset passwword
+router.post('/resetpassword/:token', emailAuth,userController.resetPassword);
 
 export default router;

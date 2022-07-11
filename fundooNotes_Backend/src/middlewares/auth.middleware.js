@@ -10,7 +10,7 @@ import jwt from 'jsonwebtoken';
  * @param {Function} next
  */
 export const userAuth = async (req, res, next) => {
-  console.log('inside middleware',req.body)
+  // console.log('inside middleware',req.body)
   try {
     var bearerToken = req.header('Authorization');
     // console.log(bearerToken);
@@ -24,6 +24,32 @@ export const userAuth = async (req, res, next) => {
     const  user    = await jwt.verify(bearerToken, process.env.SECRATEKEY);
   //  console.log(user);
    req.body.UserID = user.email;
+    next();
+  }catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      data: data,
+      message: `UnAuthorised token`
+  });
+  }
+};
+
+
+//making the middleware for reset password
+
+export const emailAuth = async (req, res, next) => {
+  // console.log('inside middleware',req.body)
+  try {
+    var emailToken = req.params.token;
+    // console.log(emailToken);
+    if (!emailToken)
+      throw {
+        code: HttpStatus.BAD_REQUEST,
+        message: 'Authorization token is required'
+      };
+    const  user    = await jwt.verify(emailToken, process.env.ForgetSecretKey);
+  //  console.log(user);
+   req.body.email = user.email;
     next();
   }catch (error) {
     res.status(HttpStatus.BAD_REQUEST).json({

@@ -97,7 +97,7 @@
           }
         }
       },
-      "/users/resetPassword": {
+      "/users/resetPassword/token": {
         "post": {
           "tags": ["User"],
           "summary": "reset password for User",
