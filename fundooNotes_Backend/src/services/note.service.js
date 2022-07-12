@@ -17,7 +17,7 @@ export const createNote = async (body) => {
 export const getAllNotes = async(body) =>{
   const data = await note.find({UserID:body.UserID});
   if(data){
-    await client.set("getAllNotes",JSON.stringify(data))   
+    await client.set("createNote",JSON.stringify(data))   
     return data;
   }else
   {

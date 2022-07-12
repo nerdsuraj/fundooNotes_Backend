@@ -20,3 +20,5 @@ info: ::1 - - [12/Jul/2022:06:21:26 +0000] "POST /api/v1/notes HTTP/1.1" 201 299
 
 info: ::1 - - [12/Jul/2022:06:21:35 +0000] "GET /api/v1/notes HTTP/1.1" 200 2084 "-" "PostmanRuntime/7.29.0"
 
+info: ::1 - - [12/Jul/2022:11:53:51 +0000] "POST /api/v1/users/ HTTP/1.1" 201 329 "-" "PostmanRuntime/7.29.0"
+
