@@ -39,7 +39,7 @@ export async function passMail(userMailID) {
       to: userMailID,
       subject: 'user regs things',
       text: 'Hello from gmail to user registration',
-      html:`<h1>Hello,<br><br>Click on given link to for user registrattion!</h1><br><h1>Link:><a href="http://localhost:7000/}">click here</a></h1>`,
+      html:`<h1>Hello,<br><br>Click on given link to for user registrattion!</h1><br><h1>click here</a></h1>`,
     };
 
     const result = await transport.sendMail(mailOptions);
