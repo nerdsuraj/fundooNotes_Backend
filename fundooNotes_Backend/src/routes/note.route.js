@@ -2,19 +2,21 @@ const express = require('express');
 const { userAuth } = require('../middlewares/auth.middleware');
 import { noteValidator } from '../validators/note.validator';
 import * as noteController from '../controllers/note.controller';
+import { redis_Gnote } from '../middlewares/reddis';
+
 const router = express.Router();
 
 //route to create new note
-router.post('',noteValidator,userAuth,  noteController.createNote);
+router.post('',  noteValidator,  userAuth,   noteController.createNote);
 
 //route to get all note
-router.get('',userAuth,  noteController.getAllNotes);   //redis.redis_data,
+router.get('', userAuth,  redis_Gnote,  noteController.getAllNotes);   
 
 //route to get single note by their id
-router.get('/:_id',userAuth,noteController.getSingleNote);
+router.get('/:_id',userAuth,     noteController.getSingleNote);
 
 //route to update single note by their id
-router.put('/:_id',userAuth, noteController.updateNote);
+router.put('/:_id', userAuth,      noteController.updateNote);
 
 //route to delete a single note by their id
 router.delete('/:_id',userAuth, noteController.deleteNote);

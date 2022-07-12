@@ -6,33 +6,32 @@ import { json } from 'express';
 // for creating the note
 export const createNote = async (body) => {
     const data = await note.create(body);
-    // console.log("inside data",data);
+    await client.del("createNote")
   return data;
-    // note.create(body)
-    // .then(data=>{
-    //   console.log(data)
-    //   return data;
-    // }).catch(error=>{
-    //   console.log(error)
-    // })
 }
+///////////////////
+
+
 
 //for getting all the notes
 export const getAllNotes = async(body) =>{
   const data = await note.find({UserID:body.UserID});
   if(data){
-    //await client.set("getAllNotes",JSON.stringify(data))
+    await client.set("getAllNotes",JSON.stringify(data))   
     return data;
   }else
   {
     throw new Error('auth not valid');
   }  
    
-}
+};
+
+//////////
 
 //getting the single note by thier id 
 export const getSingleNote = async(_id,UserID) => {
   const data = await note.findById(_id);
+  await client.set("getSingleNote",JSON.stringify(data))
   if(data.UserID == UserID)
   {
     return data;
@@ -44,6 +43,7 @@ export const getSingleNote = async(_id,UserID) => {
 //update the single note by thier id
 export const updateNote = async (_id,body,UserID) =>{
     const data = await note.findById(_id);
+    await client.set("updateNote",JSON.stringify(data))
     if(data.UserID == UserID)
     {
       const updatadata = await note.findByIdAndUpdate(
