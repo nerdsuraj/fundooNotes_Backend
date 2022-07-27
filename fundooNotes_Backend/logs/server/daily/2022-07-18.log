@@ -1,0 +1,24 @@
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-18T10:50:44.113Z"}
+info: Connected to the database. {"timestamp":"2022-07-18T10:50:44.157Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-18T14:53:40.566Z"}
+info: Connected to the database. {"timestamp":"2022-07-18T14:53:40.617Z"}
+error: 
+    status - 500 
+    message - Error: user already existed
+    at Error.<anonymous> (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at _callee2$ (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\src\services\/user.service.js:24:11)
+    at tryCatch (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\fundooNotes_Backend\fundooNotes_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-18T14:54:55.790Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-18T15:57:09.120Z"}
+info: Connected to the database. {"timestamp":"2022-07-18T15:57:09.149Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-18T16:03:12.757Z"}
+info: Connected to the database. {"timestamp":"2022-07-18T16:03:12.784Z"}

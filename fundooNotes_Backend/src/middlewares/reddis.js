@@ -23,7 +23,7 @@ import { json } from 'express';
 //  };
 
 export const redis_Gnote = async (req,res,next) =>{
-    const data = await client.get("createNote");
+    const data = await client.get("reddisDB");
     if(data != null )
     {
         const sumData = JSON.parse(data);

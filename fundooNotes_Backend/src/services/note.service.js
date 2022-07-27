@@ -6,7 +6,7 @@ import { json } from 'express';
 // for creating the note
 export const createNote = async (body) => {
     const data = await note.create(body);
-    await client.del("createNote")
+    await client.del("reddisDB")
   return data;
 }
 ///////////////////
@@ -17,7 +17,7 @@ export const createNote = async (body) => {
 export const getAllNotes = async(body) =>{
   const data = await note.find({UserID:body.UserID});
   if(data){
-    await client.set("createNote",JSON.stringify(data))   
+    await client.set("reddisDB",JSON.stringify(data))   
     return data;
   }else
   {
@@ -31,7 +31,7 @@ export const getAllNotes = async(body) =>{
 //getting the single note by thier id 
 export const getSingleNote = async(_id,UserID) => {
   const data = await note.findById(_id);
-  await client.set("getSingleNote",JSON.stringify(data))
+  await client.set("reddisDB",JSON.stringify(data))
   if(data.UserID == UserID)
   {
     return data;
@@ -43,7 +43,7 @@ export const getSingleNote = async(_id,UserID) => {
 //update the single note by thier id
 export const updateNote = async (_id,body,UserID) =>{
     const data = await note.findById(_id);
-    await client.set("updateNote",JSON.stringify(data))
+    await client.del("reddisDB")
     if(data.UserID == UserID)
     {
       const updatadata = await note.findByIdAndUpdate(

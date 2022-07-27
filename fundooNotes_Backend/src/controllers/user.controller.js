@@ -72,7 +72,7 @@ export const login = async (req, res, next) => {
   } catch (error) {
     res.status(HttpStatus.BAD_REQUEST).json({
       code: HttpStatus.BAD_REQUEST,
-      message: `$(error)`
+      message: `${error}`
     });
 
   }

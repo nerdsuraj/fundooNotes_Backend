@@ -30,6 +30,6 @@ router.delete('/:_id', userController.deleteUser);
 router.post('/forgotpassword', userController.forgetPassword);
 
 //route to get reset passwword
-router.post('/resetpassword/:token', emailAuth,userController.resetPassword);
+router.put('/resetpassword/:token', emailAuth,userController.resetPassword);
 
 export default router;
